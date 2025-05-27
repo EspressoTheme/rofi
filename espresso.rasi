@@ -1,0 +1,101 @@
+* {
+    font:   "JetBrains Mono 10";
+}
+
+window {
+    location:   center;
+    width:      480;
+    height: 480;
+
+    background-color:   #6E3316;
+    padding: 1px;
+    border-color: #6E3316;
+}
+
+mainbox {
+    padding: 10px 12px 10px 12px;
+    background-color:   #211A1C;
+}
+
+inputbar {
+    margin:    8px 0px;
+    padding:    8px;
+
+    background-color: #373439;
+    text-color: #ffffff;
+}
+
+prompt, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+prompt {
+    text-color: #ffffff;
+}
+
+textbox {
+    padding: 8px;
+}
+
+entry {
+    text-color: #ffffff;
+}
+
+listview {
+    padding: 0px 0;
+    lines: 8;
+    columns: 1;
+
+    fixed-height:   false;
+    border: 0px solid 0px 0px ;
+    border-color: #ffffff;
+}
+
+element {
+    padding:    2px;
+    spacing:    1px;
+}
+
+element-icon {
+    size: 32px;
+    padding: 0px 0px 0px 4px;
+}
+
+element-text {
+    padding: 4px;
+}
+
+scrollbar {
+    background-color: #211A1C;
+    handle-color: #6E3316;
+}
+
+element normal normal {
+    background-color: #211A1C;
+    text-color: #ffffff;
+}
+
+element alternate normal {
+    background-color: #373439;
+    text-color: #ffffff;
+}
+
+element selected normal, element selected active {
+    background-color: #6E3316;
+}
+
+element normal active, element alternate active {
+    background-color: #ed8796;
+}
+
+element-text normal {
+    text-color: #ffffff;
+}
+
+element-text selected {
+    text-color: #ffffff;
+}
+
+element-text normal active, element-text alternate active {
+    text-color: #000000;
+}
